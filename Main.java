@@ -3,8 +3,13 @@ public class Main {
         //Java helloWorld
        String x = "Water";
        String y = "Kool-aid";
+       String temp;
 
-        x = y;
-        System.out.println(x);
+       temp = x;
+       x=y;
+       y=temp;
+
+        System.out.println("X: " + x);
+        System.out.println("Y: " + y);
     }
 }
